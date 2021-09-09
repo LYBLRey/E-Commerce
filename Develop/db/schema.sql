@@ -15,7 +15,7 @@ CREATE TABLE product (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     product_name VARCHAR(50) NOT NULL,
     price DECIMAL(20,1) NOT NULL,
-    stock INT(10) NOT NULL MULTIPLEOF,
+    stock INT(10) NOT NULL,
     category_id INT,
     CONSTRAINT fk_category FOREIGN KEY (category_id) REFERENCES category (id) ON DELETE CASCADE
 );
