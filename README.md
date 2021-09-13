@@ -19,7 +19,7 @@ This project gave me even more practice with sequelize and adding ids!
 - Clone the github repo at https://github.com/LYBLRey/E-Commerce
 - Install npm i, mysql2, express, sequelize
 - Copy and Paste schema.sql into your MySQL Workbench, run it and refresh the library on the side
-- In your terminal, within the root folder, do npm seeds/index.js
+- In your terminal, within the root folder, do node seeds/index.js
 - You can start the server then by doing node server.js
 
 ## Credits
